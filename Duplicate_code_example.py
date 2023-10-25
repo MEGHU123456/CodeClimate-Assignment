@@ -11,7 +11,7 @@ def calculate_surface_area(length, width, height):
     return 2 * (calculate_area(length, width) + calculate_area(length, height) + calculate_area(width, height))
 
 # Reusable function for area and perimeter calculations
-def calculate_area_and_perimeter(length, width):
+def calculate_area_perimeter(length, width):
     area = calculate_area(length, width)
     perimeter = calculate_perimeter(length, width)
     return area, perimeter
